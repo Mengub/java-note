@@ -12,6 +12,7 @@ import java.util.Scanner;
 public class CommandReceiver {
     public Command getCommand(){
         Scanner scanner = new Scanner(System.in);
-        return new Command(scanner.next());
+//        scanner.useDelimiter(System.getProperty("line.separator"));
+        return new Command(scanner.nextLine());
     }
 }

@@ -21,6 +21,7 @@ public class Main {
         while(compiler.check(command)){
             result = compiler.run(command);
             result.show();
+            System.out.print("[java-note]");
             command = commandReceiver.getCommand();
         }
         System.out.println("quit successfully");

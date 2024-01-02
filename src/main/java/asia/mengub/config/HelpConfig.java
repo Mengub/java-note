@@ -12,6 +12,7 @@ public class HelpConfig {
             "\\h or \\help 帮助\n" +
             "create note 创建笔记\n"+
             "read note 读取笔记\n"+
+            "edit note 编辑笔记\n"+
             "-n <笔记名> or -note <笔记名>\n"+
             "-o <类名> or -object <类名>\n"+
             "-c <代码块> or -code <代码块>";
