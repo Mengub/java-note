@@ -22,7 +22,6 @@ public class NoteManager {
             return false;
         }
         directory.mkdir();
-        System.out.println("111");
         try {
             noteFile.createNewFile();
         } catch (IOException e) {
