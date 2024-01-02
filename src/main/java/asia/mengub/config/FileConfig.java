@@ -6,5 +6,5 @@ package asia.mengub.config;
  * @Description
  */
 public class FileConfig {
-    public static String notePath="";
+    public static String ROOT="src/main/resources/";
 }
